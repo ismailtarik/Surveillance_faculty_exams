@@ -135,10 +135,9 @@
                             @enderror
                         </div>
 
-                        <!-- Enseignant avec barre de recherche intégrée -->
+                     <!-- Enseignant avec barre de recherche intégrée -->
                         <div class="form-group mt-4">
-                            <label for="id_enseignant"
-                                class="block text-gray-700 dark:text-gray-300">@lang('Enseignant')</label>
+                            <label for="id_enseignant" class="block text-gray-700 dark:text-gray-300">@lang('Enseignant')</label>
                             <select name="id_enseignant" id="id_enseignant"
                                 class="form-select mt-1 block w-full py-2 px-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                 <option value="">@lang('Choisir un enseignant')</option>
@@ -153,6 +152,7 @@
                                 <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
                             @enderror
                         </div>
+
 
                         <!-- Session -->
                         <div class="form-group">

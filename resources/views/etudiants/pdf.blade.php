@@ -66,7 +66,7 @@
                 <div class="container">
                     <div class="header">
                         <h3>Module: {{ $module->lib_elp }}</h3>
-                        <p>Responsable de module: {{ $examen->enseignant->name }}</p>
+                        <p>Responsable de module: {{ $examen->enseignant ? $examen->enseignant->name : 'N/A' }}</p>
                         <p>
                             Salle(s): 
                             @php
